@@ -2,3 +2,32 @@
     text-align: center;
     font-family: Helvetica;
 }
+
+li {
+    display: inline;
+}
+
+header * {
+    display: inline-block;
+    width: 100%;
+}
+
+header #title{
+    width: 25%;
+}
+
+header #sim-name {
+    width: 25%;
+}
+header #address {
+    width: 25%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    text-align: left;
+}
+

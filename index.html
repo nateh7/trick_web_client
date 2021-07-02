@@ -5,9 +5,11 @@
 		<link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Trick Dashboard</h1>
-        <h3>SIM_NAME</h3>
-        <h3>address:port</h3>
+        <header>
+            <h2 id="title">Trick Dashboard</h3>
+            <h3 id="sim-name">SIM_NAME</h3>
+            <h3 id="address">address:port</h3>
+        </header>
         <ul>
             <li>Home</li>
             <li>Wiki</li>
@@ -21,16 +23,31 @@
             <li>Settings</li>
         </ul>
         <h2>Sim Control</h2>
-        <button>Step</button>
-        <button>Start</button>
-        <button>Freeze</button>
-        <button>Shutdown</button>
-        <button>Lite</button>
-        <button>Data Record On</button>
-        <button>RealTime On</button>
-        <button>Dump Checkpoint</button>
-        <button>Load Checkpoint</button>
-        <button>Exit</button>
+        <table>
+            <tbody>
+                <tr>
+                    <td><button>Step</button></td>
+                    <td><button>Start</button></td>
+                </tr>
+                <tr>
+                    <td><button>Freeze</button></td>
+                    <td><button>Shutdown</button></td>
+                </tr>
+                <tr>
+                    <td><button>Lite</button></td>
+                    <td><button>Data Record On</button></td>
+                </tr>
+
+                <tr>
+                    <td><button>RealTime On</button></td>
+                    <td><button>Dump Checkpoint</button></td>
+                </tr>
+                <tr>
+                    <td><button>Load Checkpoint</button></td>
+                    <td><button>Exit</button></td>
+                </tr>
+            </tbody>
+        </table>
         <h3>Time</h3>
         <ul>
             <li><p>RET (sec): 0.00</p></li>
