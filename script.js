@@ -37,3 +37,15 @@ function loadCheckpointHandler() {
 function exitHandler() {
     console.log("Exit button pressed!");
 }
+
+
+document.getElementById("step").addEventListener("click", stepHandler);
+document.getElementById("start").addEventListener("click", startHandler);
+document.getElementById("freeze").addEventListener("click", freezeHandler);
+document.getElementById("shutdown").addEventListener("click", shutdownHandler);
+document.getElementById("lite").addEventListener("click", liteHandler);
+document.getElementById("data-record-on").addEventListener("click", dataRecordOnHandler);
+document.getElementById("realtime-on").addEventListener("click", realTimeOnHandler);
+document.getElementById("dump-checkpoint").addEventListener("click", dumpCheckpointHandler);
+document.getElementById("load-checkpoint").addEventListener("click", loadCheckpointHandler);
+document.getElementById("exit").addEventListener("click", exitHandler);
